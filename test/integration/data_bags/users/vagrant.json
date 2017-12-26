@@ -1,0 +1,10 @@
+{
+  "id": "vagrant",
+  "comment": "Vagrant user",
+  "home": "/home/vagrant",
+  "groups": [
+    "users",
+    "sudo"
+  ],
+  "smbpasswd": "vagrant"
+}

@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# cron script to scrub my ZFS filepool.
+#
+
+POOL=filepool
+
+/sbin/zpool scrub $POOL
