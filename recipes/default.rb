@@ -32,7 +32,8 @@ cookbook_file '/etc/cron.weekly/zfs' do
   mode '0755'
 end
 
-include_recipe 'aw_postfix'
-include_recipe 'aw_samba'
-include_recipe 'aw_dnsmasq'
-include_recipe 'aw_backuppc'
+include_recipe 'aw_postfix::default'
+include_recipe 'aw_samba::server'
+include_recipe 'aw_dnsmasq::default'
+include_recipe 'aw_backuppc::nginx'
+include_recipe 'aw_backuppc::server'
