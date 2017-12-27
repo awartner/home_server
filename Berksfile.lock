@@ -7,7 +7,7 @@ DEPENDENCIES
     revision: 9ee5d7c0c911e9d82a8308d523c938de10ff103e
   aw_chef_nginx
     git: https://github.com/awartner/aw_chef_nginx.git
-    revision: 5129d1a79d8884fe4777ca2a7644b797c2dd5c10
+    revision: 5d8933a9fde04137635da275faba486090e6eec0
   aw_dnsmasq
     git: https://github.com/awartner/aw_dnsmasq.git
     revision: 77e6065c012c249aee9d5ab9de5ae33d24beb0a7
@@ -35,7 +35,7 @@ GRAPH
     openssh (~> 2.0)
     smartmontools (~> 1.0)
     users (~> 5.0)
-  aw_chef_nginx (1.1.0)
+  aw_chef_nginx (1.1.1)
     chef_nginx (~> 6.0)
     iptables (~> 4.0)
   aw_dnsmasq (1.0.1)
@@ -73,7 +73,7 @@ GRAPH
   compat_resource (12.19.0)
   dnsmasq (0.2.0)
     hosts_file (>= 0.0.0)
-  home_server (1.0.0)
+  home_server (1.0.1)
     aw_backuppc (~> 2.0)
     aw_base (~> 1.0)
     aw_dnsmasq (~> 1.0)
