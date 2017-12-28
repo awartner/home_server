@@ -1,7 +1,7 @@
 DEPENDENCIES
   aw_backuppc
     git: https://github.com/awartner/aw_backuppc.git
-    revision: aa74840ab33f11284ab430ee459f62fac0f8bfd9
+    revision: 8adbda50f166be8ec8d7e02cf63847df3ca46307
   aw_base
     git: https://github.com/awartner/aw_base.git
     revision: 9ee5d7c0c911e9d82a8308d523c938de10ff103e
@@ -13,20 +13,20 @@ DEPENDENCIES
     revision: 77e6065c012c249aee9d5ab9de5ae33d24beb0a7
   aw_postfix
     git: https://github.com/awartner/aw_postfix.git
-    revision: 504b9e2e5e8069f3e68cec0b716ab09309188b9e
+    revision: 77b451e4f67672b98bdcc59073b7d337b942ea3c
   aw_samba
     git: https://github.com/awartner/aw_samba.git
     revision: 430b923682ef411e6ff70f848f04c84811a926e9
   backuppc
     git: https://github.com/awartner/backuppc.git
-    revision: 7827e1a1574f8d3f973cd428f3ae8ed7cc861d9f
+    revision: 86d6fd0713357675d502acbc6d8d96472038c963
   home_server
     path: .
     metadata: true
 
 GRAPH
   apt (6.1.4)
-  aw_backuppc (2.0.0)
+  aw_backuppc (2.0.1)
     aw_chef_nginx (~> 1.0)
     backuppc (~> 1.0)
     certificate (~> 1.0)
@@ -43,7 +43,7 @@ GRAPH
     dnsmasq (>= 0.0.0)
     hostsfile (~> 3.0)
     iptables (~> 4.0)
-  aw_postfix (1.0.3)
+  aw_postfix (1.1.0)
     apt (~> 6.0)
     iptables (~> 4.0)
     postfix (~> 5.0)
@@ -51,11 +51,12 @@ GRAPH
     apt (~> 6.0)
     iptables (~> 4.0)
     samba (~> 1.0)
-  backuppc (1.1.0)
+  backuppc (1.2.0)
     apt (~> 6.0)
     chef_nginx (~> 6.0)
     htpasswd (~> 0.3)
     openssl (~> 7.0)
+    postfix (>= 0.0.0)
     sudo (~> 3.0)
   build-essential (8.0.4)
     mingw (>= 1.1)
@@ -73,7 +74,7 @@ GRAPH
   compat_resource (12.19.0)
   dnsmasq (0.2.0)
     hosts_file (>= 0.0.0)
-  home_server (1.0.1)
+  home_server (1.1.0)
     aw_backuppc (~> 2.0)
     aw_base (~> 1.0)
     aw_dnsmasq (~> 1.0)
