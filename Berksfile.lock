@@ -4,7 +4,7 @@ DEPENDENCIES
     revision: 8adbda50f166be8ec8d7e02cf63847df3ca46307
   aw_base
     git: https://github.com/awartner/aw_base.git
-    revision: 1a43c60c73abddb693b9e7d4a21af2e28a7bbee5
+    revision: 51c5da4a1219a4bc45c5cc7aee9dcbc53fc78f38
   aw_chef_nginx
     git: https://github.com/awartner/aw_chef_nginx.git
     revision: 5d8933a9fde04137635da275faba486090e6eec0
@@ -30,7 +30,7 @@ GRAPH
     aw_chef_nginx (~> 1.0)
     backuppc (~> 1.0)
     certificate (~> 1.0)
-  aw_base (1.10.0)
+  aw_base (1.10.1)
     iptables (~> 4.0)
     openssh (~> 2.0)
     smartmontools (~> 1.0)
